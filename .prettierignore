@@ -3,4 +3,6 @@
 !.eslintrc.cjs
 !tsconfig.json
 !tsconfig.node.json
+!postcss.config.cjs
+!tailwind.config.mjs
 !src/**/*
