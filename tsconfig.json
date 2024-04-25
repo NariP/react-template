@@ -19,13 +19,12 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "types": ["vitest/globals"],
     "baseUrl": ".",
     "paths": {
       /** src 이하 폴더를 @로 표시*/
       "@/*": ["src/*"]
     }
   },
-  "include": ["src", "vite.config.ts"],
+  "include": ["src", "vite.config.ts", "@types", "vitest/globals"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
